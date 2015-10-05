@@ -1,6 +1,8 @@
 # DanielBelangerAssignment1
 
-# License: debelang-reflex: Allows the user to train their reaction times or play with friends
+ License: 
+ 
+ debelang-reflex: Allows the user to train their reaction times or play with friends
 and the first person to answer will be recorded.
 
 Copyright (c) 2015 Daniel Belanger debelang@ualberta.ca
