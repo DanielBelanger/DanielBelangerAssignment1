@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.debelang.debelang_reflex" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SinglePlayerInformation"
+            android:label="@string/title_activity_single_player_information" >
+        </activity>
+        <activity
+            android:name=".SinglePlayerGameActivity"
+            android:label="@string/title_activity_single_player_game" >
+        </activity>
+        <activity
+            android:name=".MultiplayerSelectionActivity"
+            android:label="@string/title_activity_multiplayer_selection" >
+        </activity>
+        <activity
+            android:name=".TwoPlayerAcitivity"
+            android:label="@string/title_activity_two_player_acitivity" >
+        </activity>
+        <activity
+            android:name=".ThreePlayerActivity"
+            android:label="@string/title_activity_three_player" >
+        </activity>
+        <activity
+            android:name=".FourPlayerActivity"
+            android:label="@string/title_activity_four_player" >
+        </activity>
+    </application>
+
+</manifest>

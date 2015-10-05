@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Press the button when it changes color. Your reaction time will be posted and then the game will continue. Click as fastly as possible!"
+        android:id="@+id/textView2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="387dp"
+        android:layout_height="121dp"
+        android:text="START"
+        android:id="@+id/StartButton"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.00" />
+
+</LinearLayout>

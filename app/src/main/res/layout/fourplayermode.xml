@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="384dp"
+        android:layout_height="141dp"
+        android:text="PLAYER 1"
+        android:id="@+id/Player1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:text="PLAYER 2"
+        android:id="@+id/Player2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:text="PLAYER 3"
+        android:id="@+id/Player3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:text="PLAYER 4"
+        android:id="@+id/Player4" />
+</LinearLayout>
